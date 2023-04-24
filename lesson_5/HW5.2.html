@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW5.2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+      body{
+          margin: 0;
+          height: 100vh;
+          font-family: 'Inter', sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 132px;
+      }
+      .box1, .box2, .box3{
+          position: relative;
+          height: 491px;
+          width: 321px;
+          background-color: rgba(217, 217, 217, 0.3);
+          border: solid #554C4C 4px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          z-index: 1;
+      }
+      #boxGreen{
+          border: solid #65856E 4px;
+      }
+
+      h2{
+          font-size: 40px;
+          font-weight: 400;
+          margin: 0 0 4px 0;
+      }
+      p {
+          font-size: 20px;
+          height: 72px;
+          width: 256px;
+          margin: 0;
+          align-items: center;
+          text-align:center;
+      }
+      .logo{
+          position: absolute;
+          display: flex;
+          box-sizing: border-box;
+          align-items: center;
+          justify-content: center;
+          height: 100px;
+          width: 100px;
+          border: solid #554C4C 4px;
+          border-radius: 50%;
+          top: -50px;
+          z-index: 100;
+          background-color: #fff;
+      }
+      .logo img{
+          height: 60px;
+          width: 60px;
+      }
+      #logoGreen{
+          border: solid #65856E 4px;
+      }
+
+
+    </style>
+</head>
+<body>
+
+<div class="box1">
+    <div class="logo"><img src="./img/3.png" alt="3"></div>
+    <h2>Lorem</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+<div class="box2" id="boxGreen">
+    <div class="logo" id="logoGreen"><img src="./img/2.png" alt="2"></div>
+    <h2>Lorem</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+<div class="box3">
+    <div class="logo"><img src="./img/1.png" alt="1"></div>
+    <h2>Lorem</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+
+</body>
+</html>
